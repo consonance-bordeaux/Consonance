@@ -17,6 +17,21 @@ body {
   color: #444444;
 }
 
+
+.font-white {
+  color: white;
+}
+
+.bordered {
+  border: 2px solid #0C2A3E;
+  color: white;
+}
+
+.form-control {
+  border: 1px solid #F0E4AA;
+  background: none;
+}
+
 .blue {
   color: #0C2A3E;
 }
@@ -1184,7 +1199,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit] {
-  background: #F0E4AA;
+  background: #0C2A3E;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1236,9 +1251,7 @@ h3 {
   color: white;
 }
 
-strong {
-  color: #F0E4AA;
-}
+
 
 .chefs::before {
   content: "";
@@ -1340,22 +1353,9 @@ strong {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
+  background: #FFFEEB;
 }
 
-.testimonials::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgb(12, 42, 62, 0.9);
-}
 
 .testimonials .section-header {
   margin-bottom: 40px;
@@ -1368,7 +1368,7 @@ strong {
 
 .testimonials .testimonial-item {
   text-align: center;
-  color: #fff;
+  color: #0C2A3E;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1382,7 +1382,7 @@ strong {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #0C2A3E;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1394,7 +1394,7 @@ strong {
 }
 
 .testimonials .testimonial-item .stars {
-  color: #F0E4AA;
+  color: #0C2A3E;
   margin-bottom: 10px;
 }
 
@@ -1453,8 +1453,7 @@ strong {
 }
 
 .contact .info-wrap {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 1rem
 }
 
 .contact .info {
@@ -1463,11 +1462,11 @@ strong {
 
 .contact .info i {
   font-size: 20px;
-  color: #F0E4AA;
+  color: #0C2A3E;
   float: left;
   width: 44px;
   height: 44px;
-  background: #fff6e8;
+  border: solid 2px #0C2A3E;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1480,7 +1479,7 @@ strong {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #433f39;
+  color: #0C2A3E;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1488,19 +1487,19 @@ strong {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #7a7368;
+  color: #0C2A3E;
 }
 
 .contact .info:hover i {
-  background: #F0E4AA;
+  background: #0C2A3E;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-bottom: none;
   padding: 30px;
-  background: #fff;
+  background: #0C2A3E;
 }
 
 .contact .php-email-form .form-group {
@@ -1560,16 +1559,17 @@ strong {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #F0E4AA;
-  border: 0;
+  border: solid 2px #F0E4AA;
+  background: none;
   padding: 10px 24px;
-  color: #fff;
+  color: #F0E4AA;
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffa012;
+  background: #F0E4AA;
+  color: #0C2A3E;
 }
 
 @keyframes animate-loading {
