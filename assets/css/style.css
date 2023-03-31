@@ -17,6 +17,10 @@ body {
   color: #444444;
 }
 
+.border-bot {
+  border-bottom: #F0E4AA solid 1px;
+}
+
 .btn-master {
   background: none;
   border: #F0E4AA solid 2px;
@@ -28,6 +32,14 @@ body {
   letter-spacing: 1px;
   white-space: nowrap;
 }
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+
 
 .btn-master :hover {
   background: #F0E4AA;
@@ -451,7 +463,6 @@ h6 {
   background-size: cover;
   overflow: hidden;
   padding: 0;
-  background-attachment: fixed;
   
 }
 
@@ -1657,7 +1668,7 @@ h3 {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #46423b;
+  border: #F0E4AA 2px solid;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1671,6 +1682,7 @@ h3 {
 
 #footer .social-links a:hover {
   background: #F0E4AA;
+  color: #0C2A3E;
 }
 
 #footer .copyright {

@@ -83,10 +83,10 @@
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 0) {
-        selectHeader.classList.add('black')
+        selectHeader.classList.add('black','border-bot')
         
       } else {
-        selectHeader.classList.remove('black')
+        selectHeader.classList.remove('black','border-bot')
         
       }
     }
