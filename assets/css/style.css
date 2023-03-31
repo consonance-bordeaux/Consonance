@@ -21,7 +21,9 @@ body {
   border-bottom: #F0E4AA solid 1px;
 }
 
-
+.bg-blue {
+  background: #0C2A3E;
+}
 
 .btn-master {
   background: none;
