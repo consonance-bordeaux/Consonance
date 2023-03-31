@@ -21,6 +21,8 @@ body {
   border-bottom: #F0E4AA solid 1px;
 }
 
+
+
 .btn-master {
   background: none;
   border: #F0E4AA solid 2px;
@@ -75,7 +77,7 @@ a {
 }
 
 a:hover {
-  color: #ffc56e;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -111,13 +113,12 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #0C2A3E;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #ffc064;
-  color: #fff;
+  background: #fff;
 }
 
 .back-to-top.active {
@@ -188,10 +189,14 @@ h6 {
   font-weight: 400;
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
+#header .logo h1 a {
   color: #F0E4AA;
   text-decoration: none;
+}
+#header .logo h1 a:hover {
+  color: #fff;
+  transition: 0.3s;
+  
 }
 
 #header .logo img {
@@ -205,7 +210,7 @@ h6 {
 --------------------------------------------------------------*/
 .book-a-table-btn {
   background: #F0E4AA;
-  color: #433f39;
+  color: #0C2A3E;
   border-radius: 50px;
   margin: 0 0 0 20px;
   padding: 10px 25px;
@@ -217,8 +222,8 @@ h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #0C2A3E;
-  color: #fff;
+  background: #fff;
+  color: #0C2A3E;
 }
 
 
