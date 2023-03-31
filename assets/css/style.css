@@ -13,8 +13,25 @@
 
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #444444;
+}
+
+.btn-master {
+  background: none;
+  border: #F0E4AA solid 2px;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.btn-master :hover {
+  background: #F0E4AA;
+  color: #0C2A3E
 }
 
 
@@ -56,7 +73,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Satisfy", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -431,6 +448,8 @@ h6 {
   background-size: cover;
   overflow: hidden;
   padding: 0;
+  background-attachment: fixed;
+  
 }
 
 #hero .carousel-item {
@@ -439,11 +458,11 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: rgba(12, 42, 62, 0.9);
 }
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(12, 11, 10, 0.6);
   position: absolute;
   top: 0;
   right: 0;
@@ -558,7 +577,7 @@ h6 {
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
   background: #F0E4AA;
-  color: #fff;
+  color: #0C2A3E;
 }
 
 @media (max-width: 768px) {
@@ -598,7 +617,7 @@ section {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
-  color: #9298B3;
+  color: #fff;
 }
 
 
@@ -892,7 +911,7 @@ section {
 }
 
 .menu {
-  background-color: #FFFEEB;
+  background-color: #0C2A3E;
 }
 
 .menu #menu-flters li {
@@ -902,17 +921,17 @@ section {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: #0C2A3E;
+  color: #fff;
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  border: 2px solid #0C2A3E;
+  border: 2px solid #F0E4AA;
   border-radius: 50px;
 }
 
 .menu #menu-flters li:hover,
 .menu #menu-flters li.filter-active {
-  color: #fff;
-  background: #0C2A3E;
+  color: #0C2A3E;
+  background: #F0E4AA;
   
 }
 
@@ -929,28 +948,28 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  content: "______________________________________________________________________";
   position: absolute;
   left: 20px;
   right: 0;
   top: -4px;
   z-index: 1;
-  color: #0C2A3E;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #F0E4AA;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .menu .menu-content a {
-  background-color: #FFFEEB;
+  background-color: #0C2A3E;
   padding-right: 10px;
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: #0C2A3E;
+  color: #F0E4AA;
 }
 
 .menu .menu-content span {
-  background-color: #FFFEEB;
-  color: #9298B3;
+  background-color: #0C2A3E;
+  color: #fff;
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -959,9 +978,8 @@ section {
 
 .menu .menu-ingredients {
   font-style: italic;
-  font-size: 14px;
-  font-family: "Comic Neue", sans-serif;
-  color: #0C2A3E;
+  font-size: 11px;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1037,7 +1055,7 @@ section {
 
 .events::before {
   content: "";
-  background: rgb(12, 42, 62, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
   right: 0;
@@ -1076,7 +1094,7 @@ section {
 
 .events .event-item .price {
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -1216,12 +1234,12 @@ section {
 --------------------------------------------------------------*/
 .gallery {
   padding-bottom: 0;
+  background: #0C2A3E;
 }
 
 .gallery .gallery-item {
   overflow: hidden;
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border: 3px solid #fff;
 }
 
 .gallery .gallery-item img {
@@ -1261,7 +1279,7 @@ h3 {
   top: 0;
   bottom: 0;
   z-index: 9;
-  background-color: rgba(12, 42, 62, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .chefs .container {
@@ -1284,9 +1302,9 @@ h3 {
   bottom: -80px;
   left: 20px;
   right: 20px;
-  background: #FFFEEB;
+  background: #fff;
   padding: 20px 0;
-  color: #433f39;
+  color: #0C2A3E;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
@@ -1296,10 +1314,10 @@ h3 {
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #6c665c;
+  color: #0C2A3E;
   position: relative;
   padding-bottom: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .chefs .member h4::after {
@@ -1308,7 +1326,7 @@ h3 {
   display: block;
   width: 50px;
   height: 1px;
-  background: #F0E4AA;
+  background: #0C2A3E;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1353,7 +1371,20 @@ h3 {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  background: #FFFEEB;
+  background: url(../img/gallery/gallery-8.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.testimonials::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -1368,7 +1399,7 @@ h3 {
 
 .testimonials .testimonial-item {
   text-align: center;
-  color: #0C2A3E;
+  color: #fff;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1382,19 +1413,19 @@ h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #0C2A3E;
-  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #ddd;
   margin: 0 0 15px 0;
-  font-family: "Comic Neue", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .testimonials .testimonial-item .stars {
-  color: #0C2A3E;
+  color: #fff;
   margin-bottom: 10px;
 }
 
@@ -1449,24 +1480,30 @@ h3 {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background-color: #FFFEEB;
+  background-color: #0C2A3E;
 }
+
+.form-control::placeholder {
+  color: #D3D3D3;
+}
+
+
 
 .contact .info-wrap {
   padding: 1rem
 }
 
 .contact .info {
-  background: #FFFEEB;
+  background: #0C2A3E;
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #0C2A3E;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
-  border: solid 2px #0C2A3E;
+  border: solid 2px #F0E4AA;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1479,25 +1516,26 @@ h3 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #0C2A3E;
-  font-family: "Poppins", sans-serif;
+  color: #F0E4AA;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #0C2A3E;
+  color: #fff;
 }
 
 .contact .info:hover i {
-  background: #0C2A3E;
-  color: #fff;
+  background: #F0E4AA;
+  color: #0C2A3E;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-bottom: none;
+  border: #F0E4AA solid 1px;
+  
   padding: 30px;
   background: #0C2A3E;
 }
@@ -1562,7 +1600,7 @@ h3 {
   border: solid 2px #F0E4AA;
   background: none;
   padding: 10px 24px;
-  color: #F0E4AA;
+  color: #fff;
   transition: 0.4s;
   border-radius: 50px;
 }
