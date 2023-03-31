@@ -296,9 +296,9 @@ h6 {
   padding: 10px 0;
   z-index: 99;
   opacity: 0;
+  border: 1px solid #F0E4AA ;
   visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: #0C2A3E;
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -311,7 +311,7 @@ h6 {
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 400;
-  color: #433f39;
+  color: #fff;
 }
 
 .navbar .dropdown ul a i {
@@ -402,16 +402,17 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #0C2A3E;
   overflow-y: auto;
   transition: 0.3s;
+  border: #F0E4AA 1px solid;
 }
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #433f39;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
@@ -433,8 +434,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: none;
 }
 
 .navbar-mobile .dropdown ul li {
@@ -1556,7 +1556,7 @@ h3 {
 .contact .php-email-form {
   width: 100%;
   border: #F0E4AA solid 1px;
-  
+  border-radius: 8px;  
   padding: 30px;
   background: #0C2A3E;
 }
