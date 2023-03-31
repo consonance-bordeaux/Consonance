@@ -67,7 +67,11 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #F0E4AA;
+}
+
 h2,
 h3,
 h4,
@@ -166,16 +170,15 @@ h6 {
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 20px;
   margin: 0;
   line-height: 1;
   font-weight: 400;
-  letter-spacing: 3px;
 }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #fff;
+  color: #F0E4AA;
   text-decoration: none;
 }
 
