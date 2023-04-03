@@ -49,7 +49,10 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <div class="logo me-auto">
-        <h1><a href="#"><img src="./assets/img/logo-b.png" rel="preload" as="image" class="img-fluid mb-2" alt="Logo Consonance représentant deux C" /> CONSONANCE</a></h1>
+        <ul class="d-flex align-items-center">
+          <li><a href="#"><img src="./assets/img/logo-b.png" rel="preload" as="image" class="img-fluid pb-1" alt="Logo Consonance représentant deux C" /></a></li>
+          <li><a href="#" class="d-none d-md-block"><h1 class="px-2">CONSONANCE</h1></a></li>
+        </ul>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -136,16 +139,16 @@
         <div class="row mb-5 justify-content-center align-items-center">
           <div class="col-lg-4">
             <div class="member">
-              <div class="pic"><img src="assets/img/clara.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/about.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Clara</h4>
-                <span>Cheffe</span>
+                <h4>L'équipe</h4>
+                <span>Les associés</span>
               </div>
             </div>
           </div>
           <div class="col-lg-5 d-flex flex-column justify-content-center align-items-stretch">
             <div class="content">
-              <h3>Une <strong class="beige">cuisine</strong> de partage...</h3>
+              <h3>Voici notre <strong class="beige">équipe</strong> ! </h3>
               <p class="white">
                 Comme bien accompagner le vin passe aussi par l'assiette, notre cheffe Clara Pohler a élaboré une carte de tapas gourmandes et soignées avec des produits saisonnaux et frais. Tout est pensé pour être partagé facilement afin de créer un moment aussi convivial que possible.
               </p>
@@ -164,13 +167,34 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 d-none d-md-block">
               <div class="member">
                 <div class="pic"><img src="assets/img/hugo.png" class="img-fluid" alt=""></div>
                 <div class="member-info">
                   <h4>Hugo</h4>
                   <span>Sommelier</span>
                 </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row mb-5 justify-content-center align-items-center">
+            <div class="col-lg-4 d-none d-md-block">
+              <div class="member">
+                <div class="pic"><img src="assets/img/clara.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Clara</h4>
+                  <span>Cheffe</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 d-flex flex-column justify-content-center align-items-stretch">
+              <div class="content">
+                <h3>Une <strong class="beige">cuisine</strong> de partage...</h3>
+                <p class="white">
+                  Comme bien accompagner le vin passe aussi par l'assiette, notre cheffe Clara Pohler a élaboré une carte de tapas gourmandes et soignées avec des produits saisonnaux et frais. Tout est pensé pour être partagé facilement afin de créer un moment aussi convivial que possible.
+                </p>
               </div>
             </div>
           </div>
@@ -202,27 +226,11 @@
 
         <div class="row menu-container">
 
+          <!-- Côté apéro -->
+
           <div class="col-lg-6 menu-item filter-apéro">
             <div class="menu-content">
-              <a href="#">Chips de légumes & houmous</a><span>5€</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-vin">
-            <div class="menu-content">
-              <a href="#">Bouteille de vin</a><span>5€</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-vin">
-            <div class="menu-content">
-              <a href="#">Bouteille de vin</a><span>5€</span>
+              <p>Plat à partager 1</p><span>5€</span>
             </div>
             <div class="menu-ingredients">
               Lorem, deren, trataro, filede, nerada
@@ -231,34 +239,102 @@
 
           <div class="col-lg-6 menu-item filter-apéro">
             <div class="menu-content">
-              <a href="#">Fromages à partager</a><span>18€</span>
+              <p>Plat à partager 2</p><span>5€</span>
             </div>
             <div class="menu-ingredients">
-              Fromages de la Fromagerie Deruelle
+              Lorem, deren, trataro, filede, nerada
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-apéro">
             <div class="menu-content">
-              <a href="#">Charcuteries  à partager</a><span>18€</span>
+              <p>Plat à partager 3</p><span>5€</span>
             </div>
             <div class="menu-ingredients">
-              Charcuteries Ibériques d'Espagne
+              Lorem, deren, trataro, filede, nerada
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-apéro">
             <div class="menu-content">
-              <a href="#">Charcuteries et fromages à partager</a><span>18€</span>
+              <p>Plat à partager 4</p><span>5€</span>
             </div>
             <div class="menu-ingredients">
-              Assiette mixte
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-apéro">
+            <div class="menu-content">
+              <p>Plat à partager 5</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-apéro">
+            <div class="menu-content">
+              <p>Plat à partager 6</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-apéro">
+            <div class="menu-content">
+              <p>Plat à partager 7</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-apéro">
+            <div class="menu-content">
+              <p>Plat à partager 8</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-apéro">
+            <div class="menu-content">
+              <p>Plat à partager 9</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-apéro">
+            <div class="menu-content">
+              <p>Plat à partager 10</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <!-- FIN Côté apéro -->
+
+
+          <!-- Côté salé -->
+
+          <div class="col-lg-6 menu-item filter-salé">
+            <div class="menu-content">
+              <p>Plat salé 1</p><span>8€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-salé">
             <div class="menu-content">
-              <a href="#">🌿 Frites de polenta & caviar d’aubergines</a><span>8€</span>
+              <p>Plat salé 2</p><span>8€</span>
             </div>
             <div class="menu-ingredients">
               Lorem, deren, trataro, filede, nerada
@@ -267,7 +343,30 @@
 
           <div class="col-lg-6 menu-item filter-salé">
             <div class="menu-content">
-              <a href="#">🍗 Choux farci au veau et déclinaison de choux</a><span>8€</span>
+              <p>Plat salé 3</p><span>8€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salé">
+            <div class="menu-content">
+              <p>Plat salé 4</p><span>8€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <!-- FIN Côté salé -->
+
+
+          <!-- Côté sucré -->
+
+          <div class="col-lg-6 menu-item filter-sucré">
+            <div class="menu-content">
+              <p>Dessert 1</p><span>8€</span>
             </div>
             <div class="menu-ingredients">
               Lorem, deren, trataro, filede, nerada
@@ -276,22 +375,171 @@
 
           <div class="col-lg-6 menu-item filter-sucré">
             <div class="menu-content">
-              <a href="#">Moelleux au chocolat</a><span>7.95€</span>
+              <p>Dessert 2</p><span>8€</span>
             </div>
             <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+              Lorem, deren, trataro, filede, nerada
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-sucré">
             <div class="menu-content">
-              <a href="#">Tarte au citron pistache</a><span>7.95€</span>
+              <p>Dessert 3</p><span>8€</span>
             </div>
             <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+              Lorem, deren, trataro, filede, nerada
             </div>
           </div>
-        </div>
+
+          <!-- FIN Côté sucré -->
+
+
+          <!-- Côté vins -->
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 1</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 2</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 3</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 4</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 5</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 6</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 7</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 8</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 9</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 10</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 11</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 12</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 13</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 14</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-vin">
+            <div class="menu-content">
+              <p href="#">Verre de vin 15</p><span>5€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>          
+
+          <!-- FIN Côté vins -->
+
+          
+
+        
+
+          
+
+          
 
       </div>
     </section><!-- End Menu Section -->
@@ -299,19 +547,10 @@
 
     <section class="bg-blue border-bot">
       <div class="container">
-
         <div class="section-title">
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/specials-1.png" alt="" class="img-fluid">
-          </div>
-          <div class="col-lg-4">
-            <img src="assets/img/specials-1.png" alt="" class="img-fluid">
-          </div> 
-          <div class="col-lg-4">
-            <img src="assets/img/specials-1.png" alt="" class="img-fluid">
-          </div><li><ul><a class="btn btn-master mt-5">Téléchargez notre carte</a></ul></li>
-            
+          <ul>
+            <li><a class="btn-master mt-5" href="#">Téléchargez notre carte</a></li>
+          </ul>
         </div>
       </div>
     </section><!-- End Specials Section -->
@@ -342,7 +581,9 @@
                     Consonance c’est une longue sélection de plus de 300 vins. Avec de grands noms et des pépites vigneronnes de toutes origines. 
                     Hugo, le chef sommelier, vous accompagne et vous raconte leurs histoires et vous aide à trouver le parfait accord. 
                   </p>
-                  <h2 class="btn btn-master">Nos Masterclass</h1>
+                  <ul class="mt-4">
+                    <li><a class="btn-master mt-5" href="#">Téléchargez notre carte</a></li>
+                  </ul>
                   </div>
                   <br>
                   <div class="price">
@@ -487,13 +728,13 @@
 
       <div class="container mt-3">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-4 order-last p-2">
             <div class="map h-100">
               <iframe allowfullscreen width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=19%20Rue%20de%20la%20Devise,%2033000%20Bordeaux%20Bordeaux+(Consonance)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 
             </div>
           </div>
-          <div class="col-lg-6 order-last order-lg-first">
+          <div class="col-lg-6 order-lg-first">
             <form action="https://api.web3forms.com/submit" method="POST" id="form" class="php-email-form">
               <div class="row">
                 <input type="hidden" name="access_key" value="039725e6-3225-4c61-a4fc-0c49f15e5946" />
