@@ -21,4 +21,3 @@ Nous acceptons les réservations en ligne via notre système de réservation en 
 Nous sommes situés dans le centre-ville de Bordeaux, à proximité de nombreux sites touristiques. Consultez notre page de contact pour voir notre emplacement exact et nos heures d'ouverture.
 
 Nous espérons que vous apprécierez votre expérience culinaire chez Consonance. N'hésitez pas à nous contacter si vous avez des questions ou des demandes spéciales.
-
