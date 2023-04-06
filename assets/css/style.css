@@ -13,7 +13,7 @@
 
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
   color: #444444;
 }
 
@@ -105,7 +105,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 /*--------------------------------------------------------------
@@ -983,14 +983,14 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "______________________________________________________________________";
+  content: "________________________________________________________________________________________";
   position: absolute;
   left: 20px;
   right: 0;
   top: -4px;
   z-index: 1;
   color: #F0E4AA;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .menu .menu-content p {
@@ -1083,7 +1083,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/gallery/gallery-8.jpg) center center no-repeat;
+  background: url(../img/consonance\ webp/img-6369.webp) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1129,7 +1129,7 @@ section {
 
 .events .event-item .price {
   font-size: 26px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -1289,7 +1289,7 @@ section {
 # Chefs
 --------------------------------------------------------------*/
 .chefs {
-  background-image: url('../img/about.jpg');
+  background-image: url('../img/consonance\ webp/img-6516.webp');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 0;
@@ -1352,7 +1352,7 @@ h3 {
   color: #0C2A3E;
   position: relative;
   padding-bottom: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .chefs .member h4::after {
@@ -1406,7 +1406,7 @@ h3 {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  background: url(../img/gallery/gallery-8.jpg) center center no-repeat;
+  background: url(../img/consonance\ webp/img-6399.webp) center center no-repeat;
   background-size: cover;
   position: relative;
   background-attachment: fixed;
@@ -1449,14 +1449,14 @@ h3 {
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #ddd;
   margin: 0 0 15px 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .testimonials .testimonial-item .stars {
@@ -1552,7 +1552,7 @@ h3 {
   font-weight: 600;
   margin-bottom: 5px;
   color: #F0E4AA;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .contact .info p {
