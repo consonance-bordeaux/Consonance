@@ -969,7 +969,7 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "________________________________________________________________________________________";
+  content: "";
   position: absolute;
   left: 20px;
   right: 0;
